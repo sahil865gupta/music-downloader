@@ -37,7 +37,7 @@ def test():
         #print(c)
         c=c+1
         #print(h3)
-        if(c>4and c<25):
+        if(c>4 and c<25):
             #print("c is" + str(c))
             link=h3.a
             #print(link)
