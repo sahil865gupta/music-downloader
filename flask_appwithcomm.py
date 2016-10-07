@@ -1,9 +1,9 @@
 #handle a POST request
 from flask import Flask,request,redirect
-from urllib.request import urlopen
+from urllib.request import urlopen # A library that helps extracting data from web
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # A library that helps in scraping web elements
 spam=[]
 spam.append("UCwLw7qgi9103XrItTR6Ij4Q")
 def similar(str1,str2):
