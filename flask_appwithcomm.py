@@ -1,12 +1,4 @@
 # Property of TMW Army
-# handle a POST request
-from flask import Flask, request, redirect
-# A library that helps extracting data from web
-from urllib.request import urlopen
-import requests
-# A library that helps in scraping web elements
-from bs4 import BeautifulSoup
-spam = []
 
 # Add youtube channels to not download list
 # Handle a POST Request
